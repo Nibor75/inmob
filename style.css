@@ -1,24 +1,125 @@
-@import "bootstrap"
 
-h1 {
-  color: blue;
+/*LOGO*/
+
+.banner {
+  margin-bottom: 40px;
 }
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 32px 0px;
+}
+
+/*Site body*/
 
 .principal {
   width: 100%;
   height: 100%;
-  display: flex;
+  /*display: flex;*/
 }
+
+.margin-left-0 {
+  margin: 0px !important;
+}
+
+/*Left part*/
 
 .left-part {
-  background: blue;
-  flex: 0 0 50%;
-  height: 100%;
-}
-.right-part {
-  background: red;
-  flex: 0 0 50%;
-  height: 100%;
+  /*border: 1px solid black;*/
+  /*flex: 0 0 50%;*/
+  padding-bottom: 40px;
 }
 
+.left-part > h3 {
+  margin: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #535353;
+}
+
+.contact-form-input {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36px;
+  background-color: #F2F2F2;
+  border: none;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: #757575;
+}
+
+.contact-form-message {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F2F2F2;
+  border: none;
+  padding-left: 10px;
+  border-radius: 3px;
+  color: #757575;
+  padding-top: 8px;
+  height: 90px !important;
+}
+
+.contact-form-button {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 40px;
+  background-color: #494646;
+  border: none;
+  color: white;
+}
+
+.contact-form-button:hover {
+  background-color: #aaaaaa;
+  transition: 0.2s background-color ease;
+}
+
+.input {
+  width: 100%;
+  background-color: green;
+}
+
+/*right part*/
+
+.right-part {
+  /*border: 1px solid black;*/
+  /*flex: 0 0 50%;*/
+  padding-bottom: 40px;
+}
+
+.right-part > h3 {
+  color: #535353;
+  margin: 0px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+/*footer*/
+
+.footer {
+  background-color: #494646;
+}
+
+.footer > h4, p {
+  color: white;
+  text-align: center;
+  margin: 0px !important;
+}
+
+.footer > h4 {
+  padding: 10px 0px;
+}
+
+.footer > p {
+  padding-bottom: 10px
+}
 

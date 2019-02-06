@@ -2,11 +2,13 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Inmob</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- <meta name="description" content="<%= meta_description %>"> -->
 
     <!-- Facebook Open Graph data -->
@@ -27,16 +29,38 @@
 
   </head>
   <body>
-    <div class="logo">
-      <h1>Logo</h1>
+    <div class="banner">
+      <img src="logo/inmob_logo.jpg" class="logo" alt="Inmob logo">
     </div>
     <div class="container principal">
-      <div class="left-part">
-        <h1>ttoto</h1>
+      <div class="row margin-left-0">
+        <div class="left-part col-xs-12 col-sm-6 col-md-6">
+          <h3>Écrivez nous</h3>
+          <form>
+            <div class="form-group">
+              <input type="email" class="contact-form-input" placeholder="Nom">
+            </div>
+            <div class="form-group">
+              <input type="password" class="contact-form-input" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="contact-form-message" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="contact-form-button">Envoyer</button>
+            </div>
+          </form>
+        </div>
+        <div class="right-part col-xs-12 col-sm-6 col-md-6">
+          <h3>Accès</h3>
+          <h1>MAP</h1>
+        </div>
       </div>
-      <div class="right-part">
-        <h1>tati</h1>
-      </div>
+    </div>
+    <div class="footer">
+      <h4>Contact</h4>
+      <p><i class="fas fa-phone"></i> "Numéro dee tel"</p>
+      <p><i class="far fa-envelope"></i> "email"</p>
     </div>
   </body>
 </html>
