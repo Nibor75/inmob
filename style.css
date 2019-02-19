@@ -15,33 +15,23 @@
 
 /*Site body*/
 
-.principal {
-  width: 100%;
-  height: 100%;
-  /*display: flex;*/
-}
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 
-.margin-left-0 {
-  margin: 0px !important;
-}
+  .content > h3 {
+    margin-bottom: 30px;
+  }
 
-/*Left part*/
+  .contact-form {
+    width: 100%;
+  }
 
-.left-part {
-  /*border: 1px solid black;*/
-  /*flex: 0 0 50%;*/
-  padding-bottom: 40px;
-}
-
-.left-part > h3 {
-  margin: 0px;
-  padding-bottom: 30px;
-  text-align: center;
-  color: #535353;
-}
-
-.contact-form-input {
-  width: 65%;
+  .contact-form-input {
+  width: 51%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -53,8 +43,13 @@
   color: #757575;
 }
 
+.contact-form-input:focus {
+  outline: none;
+  border: 1px solid #494646;
+}
+
 .contact-form-message {
-  width: 65%;
+  width: 51%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,46 +62,39 @@
   height: 90px !important;
 }
 
+.contact-form-message:focus {
+  outline: none;
+  border: 1px solid #494646;
+}
+
 .contact-form-button {
   width: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 30px;
   height: 40px;
   background-color: #494646;
+  font-weight: 500;
   border: none;
   color: white;
+  transition: 0.3s background-color ease;
+  transition: 0.3s color ease;
 }
 
 .contact-form-button:hover {
-  background-color: #aaaaaa;
-  transition: 0.2s background-color ease;
+  background-color: white;
+  transition: 0.3s background-color ease;
+  color: #494646;
+  transition: 0.3s color ease;
+  border: 1px solid #494646;
 }
 
-.input {
-  width: 100%;
-  background-color: green;
-}
-
-/*right part*/
-
-.right-part {
-  /*border: 1px solid black;*/
-  /*flex: 0 0 50%;*/
-  padding-bottom: 40px;
-}
-
-.right-part > h3 {
-  color: #535353;
-  margin: 0px;
-  padding-bottom: 30px;
-  text-align: center;
-}
 /*footer*/
 
 .footer {
   background-color: #494646;
+  margin-top: 30px;
 }
 
 .footer > h4, p {
