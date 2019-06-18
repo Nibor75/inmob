@@ -1,8 +1,18 @@
 
 /*LOGO*/
+body {
+  height: 100vh;
+}
 
 .banner {
   margin-bottom: 40px;
+}
+
+.banner > h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 60px;
+  margin-top: 0px;
 }
 
 .logo {
@@ -22,8 +32,22 @@
     width: 100%;
   }
 
+  .content > h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-top: 0px;
+  }
+
   .content > h3 {
-    margin-bottom: 30px;
+    color: #494646;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .content > h3 > span {
+    color: red;
   }
 
   .contact-form {
